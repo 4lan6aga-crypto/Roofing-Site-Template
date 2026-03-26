@@ -213,13 +213,11 @@ img {
   background-position: center;
   opacity: 0;
   transition: opacity 0.7s ease-in-out;
-  /* Fallback gradient when image is missing */
   background-color: #2b5f9e;
 }
 
 .slide.active {
   opacity: 1;
-  position: relative;
 }
 
 /* Slide button arrows */
@@ -393,13 +391,14 @@ img {
   background: #fff;
 }
 
+.contact-container {
+  max-width: 960px;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 48px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 60px 24px;
 }
 
 .contact-info h3 {
